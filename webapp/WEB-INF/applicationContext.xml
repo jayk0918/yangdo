@@ -23,8 +23,8 @@
 		class="oracle.jdbc.pool.OracleDataSource" destroy-method="close">
 		<property name="URL"
 			value="jdbc:oracle:thin:@localhost:1521:xe" />
-		<property name="user" value="yangdo" />
-		<property name="password" value="yangdo" />
+		<property name="user" value="system" />
+		<property name="password" value="pass" />
 		<property name="connectionCachingEnabled" value="true" />
 		<qualifier value="main-db" />
 	</bean>
