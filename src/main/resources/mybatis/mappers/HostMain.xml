@@ -36,6 +36,7 @@
 			or
 			res.status = 5
 			)
+		order by res.check_in asc
 	]]>
 
 </select>
